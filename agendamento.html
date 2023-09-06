@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Barbearia carioca - Barber Shop Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Top Bar Start -->
+        <div class="top-bar d-none d-md-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="top-bar-left">
+                            <div class="text">
+                                <h2>9:00 - 17:00</h2>
+                                <p>Aberto de Segunda a Sexta</p>
+                            </div>
+                            <div class="text">
+                                <h2>(21) 96815-8148</h2>
+                                <p>Telefone de Contato</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="top-bar-right">
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Bar End -->
+
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">BARBEARIA <span style="color:red">CARIOCA</span></a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link active">HOME</a>
+                        <a href="sobre.html" class="nav-item nav-link">SOBRE</a>
+                        <a href="precos.html" class="nav-item nav-link">PREÇOS</a>
+                        <a href="agendamento.html" class="nav-item nav-link">CONTATO</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+        <!-- Page Header Start -->
+        <div class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Contato</h2>
+                    </div>
+                    <div class="col-12">
+                        <a href="">Home</a>
+                        <a href="">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+
+        <!-- Contact Start -->
+        <div class="section-header text-center" style="margin-top: 90px;">
+            <p>Entrar em contato</p>
+            <h2>Se você tiver alguma dúvida, entre em contato conosco</h2>
+        </div>
+        <div class="contact" style="margin-bottom: 90px;">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8">
+                            <div class="contact-form">
+                                <div id="success"></div>
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="name" placeholder="seu nome" required="required" data-validation-required-message="Please enter your name" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" id="email" placeholder="seu Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group" style="margin-top: 1%; margin-bottom: 2%;">
+                                        <label for="horario">horário</label>
+                                        <select name:Horario class="form-control">
+                                            <Option value="9">9:00</Option>
+                                            <Option value="10">10:00</option>
+                                            <Option value="11">11:00</Option>
+                                            <Option value="12">12:00</option>
+                                            <Option value="13">13:00</Option>
+                                            <Option value="14">14:00</option>
+                                            <Option value="15">15:00</option>
+                                            <Option value="16">16:00</option>                                                                                                                                                                             
+                                            <Option value="17">17:00</option>
+                                        </select>
+                                    </div>
+                                        <label for="Forma de pagamento">Forma de pagamento</label>
+                                    <div class="control-group">
+                                        <select class="form-control" id="subject" placeholder="Mensagem" required="required" data-validation-required-message="Please enter your message">                                            
+                                            <option value="dinheiro">dinheiro</option>
+                                            <option value="pix">pix</option>
+                                            <option value="cartão">cartão</option>
+                                        </select>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group" style="margin-top: 1%; margin-bottom: 2%;">
+                                        <label for="cortes">Cortes</label>
+                                        <select name:Cortes class="form-control">
+                                            <Option value="R$9.99">Corte de cabelo</Option>
+                                            <Option value="R$13.99">Cabelos lisos</option>
+                                            <Option value="R$17.99">Barba Shave</Option>
+                                            <Option value="R$10.99">Lavagem de Cabelo</option>
+                                            <Option value="R$14.99">Facial</Option>
+                                            <Option value="R$18.99">Corte de casamento</option>
+                                            <Option value="R$11.99">Cabelo colorido</option>
+                                            <Option value="R$15.99">Shampoo</option>                                                                                                                                                                             
+                                            <Option value="R$19.99">Arrumar</option>
+                                            <Option value="R$12.99">Barbear Cabelo:</option>
+                                            <Option value="R$16.99">Guarnição da Barba</option>                                                                                                                                                                             
+                                            <Option value="R$20.99">Massagem</option>
+                                        </select>
+                                    </div>
+                                    <div class="control-group" style="margin-top: 1%; margin-bottom: 2%;">
+                                        <label for="dia">dia</label>
+                                        <select name:dia class="form-control">
+                                            <Option value="1">1</Option>
+                                            <Option value="2">2</option>
+                                            <Option value="3">3</Option>
+                                            <Option value="4">4</option>
+                                            <Option value="5">5</Option>
+                                            <Option value="6">6</option>
+                                            <Option value="7">7</option>
+                                            <Option value="8">8</option>                                                                                                                                                                             
+                                            <Option value="9">9</option>
+                                            <Option value="10">10</Option>
+                                            <Option value="11">11</option>
+                                            <Option value="12">12</Option>
+                                            <Option value="13">13</option>
+                                            <Option value="14">14</Option>
+                                            <Option value="15">15</option>
+                                            <Option value="16">16</option>
+                                            <Option value="17">17</option>                                                                                                                                                                             
+                                            <Option value="18">18</option>
+                                            <Option value="19">19</Option>
+                                            <Option value="20">20</option>
+                                            <Option value="21">21</Option>
+                                            <Option value="22">22</option>
+                                            <Option value="23">23</Option>
+                                            <Option value="24">24</option>
+                                            <Option value="25">25</option>
+                                            <Option value="26">26</option>                                                                                                                                                                             
+                                            <Option value="27">27</option>
+                                            <Option value="28">28</option>
+                                            <Option value="29">29</option>
+                                            <Option value="30">30</option>                                                                                                                                                                             
+                                            <Option value="31">31</option>    
+                                        </select>
+                                    </div>
+                                    <div class="control-group" style="margin-top: 1%; margin-bottom: 2%;">
+                                        <label for="mês">mês</label>
+                                        <select name:mês class="form-control">
+                                            <Option value="1">Janeiro</Option>
+                                            <Option value="2">Fevereiro</option>
+                                            <Option value="3">Março</Option>
+                                            <Option value="4">Abril</option>
+                                            <Option value="5">Maio</Option>
+                                            <Option value="6">Junho</option>
+                                            <Option value="7">julho</option>
+                                            <Option value="8">Agosto</option>                                                                                                                                                                             
+                                            <Option value="9">Setembro</option>
+                                            <Option value="10">Outubro</option>
+                                            <Option value="11">Novembro</option>                                                                                                                                                                             
+                                            <Option value="12">Dezembro</option>
+                                        </select>
+                                    </div>  
+                                    <div>
+                                        <button class="btn" type="submit" id="sendMessageButton">Enviar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="footer-contact">
+                                    <h2>Endereço do salão</h2>
+                                    <p><i class="fa fa-map-marker-alt"></i> R. Emíliano Felipe, 173 - Irajá, Rio de Janeiro</p>
+                                    <p><i class="fa fa-phone-alt"></i>(21) 96815-8148</p>
+                                    <p><i class="fa fa-envelope"></i>barbearia carioca@gmail.com</p>
+                                    <div class="footer-social">
+                                        <a href=""><i class="fab fa-twitter"></i>@barbearia carioca</a>
+                                        <a href=""><i class="fab fa-facebook-f"></i>@barbearia carioca</a>
+                                        <a href=""><i class="fab fa-youtube"></i>@barbearia carioca</a>
+                                        <a href=""><i class="fab fa-instagram"></i>@barbearia carioca</a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i>@barbearia carioca</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="footer-link">
+                                    <h2>Links Rápidos</h2>
+                                    <a href="">termos de uso</a>
+                                    <a href="">Política de Privacidade</a>
+                                    <a href="">Cookies</a>
+                                    <a href="">Ajuda</a>
+                                    <a href="">FQAs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="footer-newsletter">
+                            <h2>Boletim de Notícias</h2>
+                            <p>
+                                “O cabelo é um livro aberto, em que a gente pode escrever a nossa história, a história do nosso local.
+                            </p>
+                            <div class="form">
+                                <input class="form-control" placeholder="O E-mail vai aqui">
+                                <button class="btn">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; <a href="#">Barbearia carioca.com</a>, Todos os direitos reservados.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Feito Por <span style="color: red;">Yuri Alonso, Ana Carolina, Cidinei Givigy, Amanda Cândido e Kauã Henrique</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

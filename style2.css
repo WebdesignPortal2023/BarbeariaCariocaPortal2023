@@ -1,0 +1,8 @@
+#body {
+    width: 100%;
+}
+#unidades{
+    width: 40%;
+    height: auto;
+    border: 1px solid black;
+}

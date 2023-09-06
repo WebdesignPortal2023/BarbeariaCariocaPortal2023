@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="unidades">
+        <div id="Botafogo">
+            <div id="texto">
+                <div id="botafogo-imagem">
+                    <img src="botafogo.jpg" alt="Team Image">
+                </div>
+                <div id="botafogo-texto">
+                    <h2>João Pedro Santos</h2>
+                    <p>Expert em Tinturas</p>
+                </div>
+            </div>
+        </div>
+        <div id="Leblon">
+            <div id="texto">
+                <div id="leblon-imagem">
+                    <img src="botafogo.jpg" alt="Team Image">
+                </div>
+                <div id="leblon-texto">
+                    <h2>João Pedro Santos</h2>
+                    <p>Expert em Tinturas</p>
+                </div>
+            </div>
+        </div>
+        <div id="Icaraí">
+            <div id="texto">
+                <div id="icarai-imagem">
+                    <img src="botafogo.jpg" alt="Team Image">
+                </div>
+                <div id="icarai-texto">
+                    <h2>João Pedro Santos</h2>
+                    <p>Expert em Tinturas</p>
+                </div>
+            </div>
+        </div>
+        <div id="Campo Grande">
+            <div id="texto">
+                <div id="campog-imagem">
+                    <img src="botafogo.jpg" alt="Team Image">
+                </div>
+                <div id="campog-texto">
+                    <h2>João Pedro Santos</h2>
+                    <p>Expert em Tinturas</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--ajuda-->
+    <div class="section-header text-center" style="margin-top: 90px;">
+        <p>Entrar em contato</p>
+        <h2>Se você tiver alguma dúvida, entre em contato conosco</h2>
+    </div>
+    <div class="contact" style="margin-bottom: 90px;">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-8">
+                        <div class="contact-form">
+                            <div id="success"></div>
+                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <div class="control-group">
+                                    <select class="form-control" id="select" placeholder="seu corte" data-validation-required-message="Selecione seu corte">
+                                        <option style=>---Selecione seu corte---</option>
+                                        <option>Corte de cabelo</option>
+                                        <option>Lavagem</option>
+                                        <option>Cor do cabelo</option>
+                                        <option>Barba</option>
+                                        <option>cabelos lisos</option>
+
+                                    </select>
+                                </div>
+                                <div class="control-group">
+                                    <input type="text" class="form-control" id="name" placeholder="seu nome" required="required" data-validation-required-message="Insira seu Nome" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <input type="email" class="form-control" id="email" placeholder="seu Email" required="required" data-validation-required-message="Insira seu email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <input type="text" class="form-control" id="subject" placeholder="assunto" required="required" data-validation-required-message="Insira o Assunto" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <textarea class="form-control" id="message" placeholder="Mensagem" required="required" data-validation-required-message="Insira sua Mensagem"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div>
+                                    <button class="btn" type="submit" id="sendMessageButton">Enviar mensagem</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+</body>
+</html>
+
